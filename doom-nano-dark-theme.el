@@ -39,7 +39,7 @@
 ;;; Commentary:
 ;; This package provides a dark theme for Doom Emacs based on N Λ N O.
 
-;;; Code
+;;; Code:
 
 (def-doom-theme doom-nano-dark
   "A dark theme for Doom Emacs based on N Λ N O."
@@ -635,3 +635,7 @@
    (which-key-command-description-face   :foreground fg)
    (which-key-key-face                   :foreground nano-strong :weight 'bold)
    (which-key-key-group-description-face :foreground nano-salient)))
+
+(provide 'doom-nano-dark-theme)
+
+;;; doom-nano-dark-theme.el ends here

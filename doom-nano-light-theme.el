@@ -39,7 +39,7 @@
 ;;; Commentary:
 ;; This package provides a light theme for Doom Emacs based on N Λ N O.
 
-;;; Code
+;;; Code:
 
 (def-doom-theme doom-nano-light
   "A light theme for Doom Emacs based on N Λ N O."
@@ -633,3 +633,7 @@
    (which-key-command-description-face   :foreground fg)
    (which-key-key-face                   :foreground nano-strong :weight 'bold)
    (which-key-key-group-description-face :foreground nano-salient)))
+
+(provide 'doom-nano-light-theme)
+
+;;; doom-nano-light-theme.el ends here
