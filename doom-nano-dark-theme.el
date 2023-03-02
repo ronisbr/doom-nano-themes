@@ -642,6 +642,10 @@
    (vertico-group-title     :foreground nano-faded)
    (vertico-multiline       :foreground nano-faded)
 
+   ;; === Workspaces ===========================================================
+
+   (+workspace-tab-selected-face :foreground nano-salient :weight 'bold)
+
    ;; === Which key ============================================================
 
    (which-key-command-description-face   :foreground fg)
