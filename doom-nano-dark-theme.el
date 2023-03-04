@@ -13,7 +13,7 @@
 ;; Version          : 0.1.0
 ;;
 ;;; Usage:
-;; 1. Copy this file to `~/.doom.d/themes/'.
+;; 1. Copy this file to `~/.doom.d/themes/' or `~/.config/doom/themes/`.
 ;; 2. Load the theme using `(setq doom-theme 'doom-nano-dark)'.
 ;;
 ;;; License:
