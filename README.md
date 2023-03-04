@@ -6,11 +6,12 @@ Hence, it can work properly when using Doom Emacs.
 
 ## Installation
 
-First, copy the files to `~/.doom.d/themes/`.
+First, copy the files to `~/.doom.d/themes/` or
+`~/config/doom/themes/` depending on your local setup.
 
 If you are using Doom Emacs, add to your `config.el`:
 
-``` emacs-lisp
+```emacs-lisp
 (after! doom-themes
   (load-theme 'doom-nano-light t))
 ```
