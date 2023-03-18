@@ -41,6 +41,15 @@
 
 ;;; Code:
 
+(defgroup doom-nano-light-theme nil
+  "Options for the `doom-nano-light' theme."
+  :group 'doom-themes)
+
+(defcustom doom-nano-light-theme-highlight-tab-whitespaces nil
+  "If non-nil, the tab whitespaces will be highlighted."
+  :group 'doom-nano-light-theme
+  :type 'boolean)
+
 (def-doom-theme doom-nano-light
   "A light theme for Doom Emacs based on N Λ N O."
 
@@ -146,6 +155,11 @@
    (tool-bar                     :foreground bg :background nano-faded)
    (tooltip                      :background nano-subtle)
    (trailing-whitespace          :background nano-subtle)
+
+   (whitespace-tab :background
+                   (if doom-nano-light-theme-highlight-tab-whitespaces
+                       nano-subtle
+                     bg))
 
    ;; === Ace window ===========================================================
 
