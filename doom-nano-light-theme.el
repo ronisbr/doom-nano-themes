@@ -640,6 +640,17 @@
    (vertico-group-title     :foreground nano-faded)
    (vertico-multiline       :foreground nano-faded)
 
+   ;;; === Vterm ===============================================================
+
+   (vterm-color-black   :foreground fg :background fg)
+   (vterm-color-blue    :foreground blue :background bright-blue)
+   (vterm-color-cyan    :foreground cyan :background bright-cyan)
+   (vterm-color-green   :foreground green :background bright-green)
+   (vterm-color-magenta :foreground magenta :background bright-magenta)
+   (vterm-color-red     :foreground red :background bright-red)
+   (vterm-color-yellow  :foreground yellow :background bright-yellow)
+   (vterm-color-white   :foreground grey :background grey)
+
    ;; === Workspaces ===========================================================
 
    (+workspace-tab-selected-face :foreground nano-salient :weight 'bold)
