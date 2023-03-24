@@ -589,7 +589,7 @@
 
    ;; === Org-agenda ===========================================================
 
-   (org-agenda-calendar-event   :foreground fg :background bg)
+   (org-agenda-calendar-event   :foreground fg)
    (org-agenda-calendar-sexp    :foreground nano-salient)
    (org-agenda-clocking         :foreground nano-faded)
    (org-agenda-column-dateline  :foreground nano-faded)
