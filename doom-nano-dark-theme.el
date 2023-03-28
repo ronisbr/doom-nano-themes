@@ -626,6 +626,15 @@
    (match  :foreground nano-popout)
    (shadow :foreground nano-popout)
 
+   ;; === smerge ===============================================================
+
+   (smerge-lower           :background bg)
+   (smerge-markers         :background nano-subtle :weight 'bold :distant-foreground 'unspecified)
+   (smerge-refined-added   :foreground nano-salient :weight 'bold)
+   (smerge-refined-changed :foreground nano-popout)
+   (smerge-refined-removed :foreground nano-faded :strike-through t)
+   (smerge-upper           :background bg)
+
    ;; === Structural ===========================================================
 
    (bold              :foreground nano-strong :weight 'bold)
