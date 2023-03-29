@@ -622,7 +622,7 @@
    ;; === Semantics ============================================================
 
    (match  :foreground nano-popout)
-   (shadow :foreground nano-popout)
+   (shadow :foreground nano-faded)
 
    ;; === smerge ===============================================================
 
