@@ -258,10 +258,14 @@
    (doom-nano-modeline-evil-visual-state-face   :foreground bg :background nano-salient)
    (doom-nano-modeline-inactive-face            :foreground nano-faded :background nano-highlight)
 
-   ;; === Evil mode=============================================================
+   ;; === Evil mode ============================================================
 
    (evil-snipe-first-match-face :background nano-highlight :weight 'bold)
    (evil-snipe-matches-face     :background nano-subtle)
+
+   ;; === Flycheck =============================================================
+
+   (flycheck-posframe-background-face :background nano-subtle)
 
    ;; === Font lock ============================================================
 
