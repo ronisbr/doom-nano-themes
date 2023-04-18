@@ -299,10 +299,10 @@
 
    ;; === Line numbers =========================================================
 
-   (line-number :foreground nano-faded)
-   (line-number-current-line :foreground nil)
-   (line-number-major-tick :foreground nano-faded)
-   (line-number-minor-tick :foreground nano-faded)
+   (line-number              :foreground nano-faded)
+   (line-number-current-line :foreground fg)
+   (line-number-major-tick   :foreground nano-faded)
+   (line-number-minor-tick   :foreground nano-faded)
 
    ;; === LSP ==================================================================
 
