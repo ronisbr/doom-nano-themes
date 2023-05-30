@@ -662,6 +662,11 @@
    (term-color-red     :foreground red :background bright-red)
    (term-color-yellow  :foreground yellow :background bright-yellow)
 
+   ;; === Transient ============================================================
+
+   ;; Set only faces that influence Magit.
+   (transient-value :foreground fg)
+
    ;; === Vertico ==============================================================
 
    (vertico-current         :background nano-subtle :weight 'bold)
