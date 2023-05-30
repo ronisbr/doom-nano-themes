@@ -10,7 +10,7 @@
 ;; Keywords         : mode-line, header-line
 ;; Package-Requires : ((emacs "28") (doom-themes "2"))
 ;; URL              : https://github.com/ronisbr/doom-nano-themes/
-;; Version          : 0.2.2
+;; Version          : 0.2.3
 ;;
 ;;; Usage:
 ;; 1. Copy this file to `~/.doom.d/themes/' `~/.config/doom/themes/`.
